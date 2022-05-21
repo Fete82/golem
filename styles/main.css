@@ -3,6 +3,14 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+
+/* space between background-background images, kinda */
+img {
+  margin-bottom: -100px;
+}
+
+
+
 p {
   margin: 0;
   margin-bottom: 2rem;
@@ -54,10 +62,6 @@ header {
   transform: translateZ(-10px) scale(2.1);
 }
 
-.foreground {
-  
-}
-
 .background,
 .foreground {
   position: absolute;
@@ -67,31 +71,66 @@ header {
   z-index: -1;
 }
 
-
 .title {
+  display: inline-block;
   font-size: 10rem;
   color: rgb(230, 230, 230);
   text-shadow: 0 0 3px black;
-  transition: 0.3s ease-in-out;
-
+  transition: 0.3s ease-out;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.title:hover {
-  color: rgb(255, 255, 255);
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+h1:hover {
+  cursor: default;
+  color: rgb(255, 36, 36);
   text-shadow: 0 0 5px black;
+  transform: scale(1.1);
 }
+
+
+/* Title position, and various effects */
 
 .title-position {
   position: relative;
   top: 12rem;
-  left: -21%;
   transition: 0.3s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.title-position h1 {
+  animation: 0.8s slide-right 0.2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    margin-left: 15%;
+    transform:translateX(0);
+  }
+
+  from {
+    left: -15rem;
+    margin-left: -100%;
+  }
 }
 
 @media only screen and (max-width: 1048px) {
   .title-position {
-    left: 0;
-    top: 15rem;
+    margin-left: 0;
   }
 }
 
