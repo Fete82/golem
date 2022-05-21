@@ -39,14 +39,21 @@ header {
 
 
 .title {
-  font-size: 7rem;
+  font-size: 10rem;
   color: white;
   text-shadow: 0 0 3px black;
 }
 
+.title-position {
+  position: relative;
+  top: -2rem;
+  /*
+  left: 21rem;
+  */
+}
+
 
 .text-body {
-
   font-size: 2rem;
   padding: 2rem;
   background-color: #333;
@@ -54,6 +61,7 @@ header {
 }
 
 section {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: auto;
   max-width: 60ch;
