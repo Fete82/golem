@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #333;
+  background-color: rgb(29, 29, 29);
 }
 
 p {
@@ -74,7 +74,7 @@ header {
 .text-body {
   font-size: 2rem;
   padding: 2rem;
-  background-color: #333;
+  background-color: rgb(29, 29, 29);
   color: white;
 }
 

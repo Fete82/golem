@@ -27,7 +27,7 @@
         <div class="footer">
             <footer>
                 <p>
-                    For more information about the Golem, visit <a href="https://images.justwatch.com/backdrop/241272046/s640/the-golem-1920">The Golem</a>
+                    For more information about the Golem, visit <a href="https://images.justwatch.com/backdrop/241272046/s640/the-golem-1920">his lair.</a>
                 </p>
             </footer>
         </div>
