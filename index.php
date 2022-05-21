@@ -43,7 +43,7 @@
         <div class="second-image">
             <img src="images/the-golem.jpg" class="background" alt="background">
         </div>
-        <div class="text-body">
+        <!--<div class="text-body">-->
             <div class="footer">
                 <footer>
                     <p>
@@ -54,7 +54,7 @@
                     </p>
                 </footer>
             </div>
-        </div>
+        <!--</div>-->
 
 
     </div>

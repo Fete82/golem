@@ -40,13 +40,19 @@ a {
 }
 
 footer {
-  height: 300px;
+  height: 200px;
   padding-top: 30px;
   font-size: 22px;
   color: rgb(173, 173, 173);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer {
+  margin-top: 300px;
+  z-index: -1;
+}
+
 
 .wrapper {
   height: 100vh;
@@ -68,16 +74,16 @@ header {
 .second-image {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: first baseline;
   align-items: center;
-  height: 120%;
+  height: 110%;
   transform-style: preserve-3d;
   z-index: -1;
 }
 
 .background {
   /*-10px std*/
-  transform: translateZ(-10px) scale(2.1);
+  transform: translateZ(-11px) scale(2.1);
 }
 
 .background,
@@ -158,11 +164,15 @@ header {
 }
 
 .size-test {
-  height: 400px;
+  height: 100px;
 }
 
 .inline-image {
   display: inline-block;
   max-width: 100%;
   margin: auto;
+}
+
+footer > p {
+  text-align: center;
 }
