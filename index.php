@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <header>
-            <img src="images/golem-bg.jpg" class="background" alt="background">
+            <img src="images/golem-bg.jpg" class="background" alt="background" width="768" height="auto">
             <div class="title-position">
                 <h1 class="title">GOLEM</h1>
             </div>

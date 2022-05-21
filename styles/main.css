@@ -60,9 +60,11 @@ header {
   font-size: 10rem;
   color: rgb(230, 230, 230);
   text-shadow: 0 0 3px black;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 
 }
+
+
 
 .title:hover {
   color: rgb(255, 255, 255);
@@ -72,8 +74,21 @@ header {
 .title-position {
   position: relative;
   top: 12rem;
-  left: 21rem;
+  left: -21%;
+  transition: 0.3s ease-in-out;
+}
 
+@media only screen and (max-width: 1048px) {
+  .title-position {
+    left: 0;
+    top: 15rem;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+  .title {
+    font-size: 7rem;
+  }
 }
 
 
