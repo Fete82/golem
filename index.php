@@ -13,7 +13,7 @@
 <body>
     <div class="wrapper">
         <header>
-            <img src="images/golem-bg.jpg" class="background" alt="background" width="500" height="auto">
+            <img src="images/golem-bg.jpg" class="background" alt="background">
             <div class="title-position">
                 <h1 class="title">GOLEM</h1>
             </div>
@@ -41,7 +41,7 @@
 
         </div>
         <div class="second-image">
-            <img src="images/the-golem.jpg" class="background" alt="background" width="768" height="auto">
+            <img src="images/the-golem.jpg" class="background" alt="background">
         </div>
         <div class="text-body">
             <div class="footer">

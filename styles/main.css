@@ -3,19 +3,34 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+
 section {
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
+  text-align: center;
   margin: auto;
   max-width: 60ch;
-  padding-bottom: 100px;
+  padding-bottom: 82px;
+}
+
+section > img {
+  text-align: center;
 }
 
 p {
   margin: 0;
+  text-align: justify;
   margin-bottom: 3rem;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1048px) {
+  p {
+    text-align: left;
+  }
 }
 
 a {
@@ -37,7 +52,7 @@ footer {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  perspective: 12px;
+  perspective: 13px;
 }
 
 header {
@@ -61,6 +76,7 @@ header {
 }
 
 .background {
+  /*-10px std*/
   transform: translateZ(-10px) scale(2.1);
 }
 
