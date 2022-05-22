@@ -47,10 +47,10 @@
             <div class="footer">
                 <footer>
                     <p>
-                        For more information about Golem, visit <a href="https://images.justwatch.com/backdrop/241272046/s640/the-golem-1920">his lair.</a>
+                        For more information about Golem, visit <a href="https://en.wikipedia.org/wiki/Golem">wikipedia.</a>
                     </p>
                     <p class="rights-box">
-                        © 2022 Fetus Lanus. All Rights Reserved
+                        © 2022 Edvin Lindahl. All Rights Reserved
                     </p>
                 </footer>
             </div>

@@ -148,13 +148,21 @@ header {
   .title-position {
     margin-left: 0;
   }
-}
-
-@media only screen and (max-width: 1048px) {
   .title {
     font-size: 7rem;
   }
 }
+
+@media only screen and (max-width: 618px) {
+  .title-position {
+    top: 16rem;
+  }
+  .title {
+    font-size: 5rem;
+  }
+}
+
+
 
 .text-body {
   font-size: 2rem;
