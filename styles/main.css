@@ -8,7 +8,6 @@ h1 {
   letter-spacing: .2rem;
 }
 
-
 section {
   line-height: 1.6;
   display: flex;
@@ -131,6 +130,9 @@ header {
 
 }
 
+
+/* SLIDE EFFECT, OPACITY + POSITION */
+
 .title-position h1 {
   animation: 0.8s slide-right 0.2s forwards;
     transform:translateX(-100%);
@@ -173,8 +175,6 @@ header {
 
 }
 
-
-
 .text-body {
   font-size: 2rem;
   padding: 2rem;
@@ -182,13 +182,11 @@ header {
   color: rgb(209, 209, 209);
 }
 
-
 @media only screen and (max-width: 1048px) {
   .text-body {
     font-size: 1.8rem;
   }
 }
-
 
 @media only screen and (max-width: 618px) {
   .text-body {
