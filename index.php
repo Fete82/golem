@@ -14,17 +14,13 @@
 
 <body>
     <div class="wrapper">
-
         <header>
-
             <img src="images/golem-bg-2.jpg" class="background" alt="background">
 
             <div class="title-position">
                 <h1 class="title">GOLEM</h1>
             </div>
-
         </header>
-
         <div class="text-body">
             <section>
                 <div>
