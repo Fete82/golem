@@ -32,12 +32,6 @@ p {
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 1048px) {
-  p {
-    text-align: left;
-  }
-}
-
 a {
   color: white;
   font-style: italic;
