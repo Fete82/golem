@@ -14,7 +14,9 @@
 
 <body>
     <div class="wrapper">
+
         <header>
+
             <img src="images/golem-bg-2.jpg" class="background" alt="background">
 
             <div class="title-position">
@@ -22,6 +24,7 @@
             </div>
 
         </header>
+
         <div class="text-body">
             <section>
                 <div>
@@ -42,12 +45,10 @@
             </section>
         </div>
         <div class="size-test">
-
         </div>
         <div class="second-image">
             <img src="images/the-golem.jpg" class="background" alt="background">
         </div>
-        <!--<div class="text-body">-->
         <div class="footer">
             <footer>
                 <p>
@@ -58,9 +59,6 @@
                 </p>
             </footer>
         </div>
-        <!--</div>-->
-
-
     </div>
 </body>
 
