@@ -3,6 +3,11 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+h1 {
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: .2rem;
+}
+
 
 section {
   line-height: 1.6;
@@ -83,7 +88,7 @@ header {
 
 .background {
   /*-10px std*/
-  transform: translateZ(-11px) scale(2.1);
+  transform: translateZ(-12px) scale(2.1);
 }
 
 .background,
@@ -97,7 +102,7 @@ header {
 
 .title {
   display: inline-block;
-  font-size: 10rem;
+  font-size: 12rem;
   color: rgb(230, 230, 230);
   text-shadow: 0 0 3px black;
   transition: 0.3s ease-out;
@@ -149,7 +154,7 @@ header {
     margin-left: 0;
   }
   .title {
-    font-size: 7rem;
+    font-size: 9rem;
   }
 }
 
@@ -158,8 +163,9 @@ header {
     top: 16rem;
   }
   .title {
-    font-size: 5rem;
+    font-size: 7rem;
   }
+
 }
 
 
@@ -169,6 +175,22 @@ header {
   padding: 2rem;
   background-color: rgb(29, 29, 29);
   color: rgb(209, 209, 209);
+}
+
+
+@media only screen and (max-width: 1048px) {
+  .text-body {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 618px) {
+  .text-body {
+    font-size: 1.2rem;
+  }
+
 }
 
 .size-test {
