@@ -134,15 +134,21 @@ header {
 .title-position h1 {
   animation: 0.8s slide-right 0.2s forwards;
     transform:translateX(-100%);
+
 }
 
 @keyframes slide-right {
-  to {
+  100% {
+    opacity: 1;
     margin-left: 15%;
     transform:translateX(0);
   }
+  50% {
+    opacity: 0;
+  }
 
-  from {
+  0% {
+    opacity: 0;
     left: -15rem;
     margin-left: -100%;
   }
